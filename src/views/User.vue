@@ -1,20 +1,20 @@
 <!--
  * @Author: your name
- * @Date: 2020-01-11 16:54:07
- * @LastEditTime : 2020-01-11 17:57:40
+ * @Date: 2020-01-11 17:51:08
+ * @LastEditTime : 2020-01-11 17:53:46
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \vuedemo\src\views\About.vue
+ * @FilePath: \vuedemo\src\views\User.vue
  -->
 <template>
-  <div class="about">
-    <div>this is about</div>
+  <div class="user">
+    <div>this is user</div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'about',
+  name: 'user',
 
   data () {
     return {
@@ -28,4 +28,3 @@ export default {
 <style lang='stylus' scoped>
 
 </style>
-

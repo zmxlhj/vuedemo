@@ -1,6 +1,15 @@
+/*
+ * @Author: your name
+ * @Date: 2020-01-11 16:54:07
+ * @LastEditTime : 2020-01-11 17:55:31
+ * @LastEditors  : Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \vuedemo\src\router\index.js
+ */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import User from '../views/User.vue'
 
 Vue.use(VueRouter)
 
@@ -9,6 +18,11 @@ const routes = [
     path: '/',
     name: 'home',
     component: Home
+  },
+  {
+    path: '/user',
+    name: 'user',
+    component: User
   },
   {
     path: '/about',
