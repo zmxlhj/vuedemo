@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-01-11 16:54:07
- * @LastEditTime : 2020-01-16 16:53:57
+ * @LastEditTime : 2020-01-16 17:30:14
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \vuedemo\src\App.vue
@@ -29,6 +29,6 @@
      display: flex;
      justify-content: space-around;
      align-items: center;
-     height: 44px;
+     height: 44px;     
    }
 </style>
