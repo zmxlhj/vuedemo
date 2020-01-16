@@ -1,24 +1,20 @@
 <!--
  * @Author: your name
- * @Date: 2020-01-11 16:54:07
- * @LastEditTime : 2020-01-16 16:02:19
+ * @Date: 2020-01-16 15:41:21
+ * @LastEditTime : 2020-01-16 15:49:44
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \vuedemo\src\views\About.vue
+ * @FilePath: \vuedemo\src\components\hom-tmp.vue
  -->
 <template>
-  <div class="about">
-    <AboutTmp></AboutTmp>
+  <div class="home-tmp">
+      this is home-tmp
   </div>
 </template>
 
 <script>
-import AboutTmp from '@/components/about-tmp.vue'
 export default {
-  name: 'about',
-  components: {
-    AboutTmp
-  },
+  name: 'home-tmp',
 
   data () {
     return {
@@ -32,4 +28,3 @@ export default {
 <style lang='stylus' scoped>
 
 </style>
-

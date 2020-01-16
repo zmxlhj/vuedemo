@@ -1,8 +1,8 @@
 <!--
  * @Author: your name
  * @Date: 2020-01-11 16:54:07
- * @LastEditTime: 2020-01-11 17:54:23
- * @LastEditors: your name
+ * @LastEditTime : 2020-01-16 15:45:13
+ * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \vuedemo\src\App.vue
  -->
@@ -17,25 +17,5 @@
   </div>
 </template>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+<style lang='stylus' scoped>
 </style>
